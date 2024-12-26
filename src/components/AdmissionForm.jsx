@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { getDatabase, ref, set} from "firebase/database";
-import {app} from "../configuration";
+import {app} from "../firebaseConfig";
 
 //creating db instance
 const myDB= getDatabase(app);
